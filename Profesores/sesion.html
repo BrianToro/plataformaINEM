@@ -16,16 +16,16 @@
         <header>
             <div class="menu">
                 <div class="container-menu">
-                    <a href="/" class="logo"><img src="../static/img/logo.png" alt=""></a>
+                    <a href="../inicio.html" class="logo"><img src="../static/img/logo.png" alt=""></a>
                     <nav>
                         <ul>
-                            <a href="/profesores">
+                            <a href="../Profesores/sesion.html">
                                 <li class="nav-link">Profesores</li>
                             </a>
-                            <a href="/estudiantes">
+                            <a href="../Estudiantes/sesion.html">
                                 <li class="nav-link">Estudiantes</li>
                             </a>
-                            <a href="/administrativos">
+                            <a href="../Administrativos/sesion.html">
                                 <li class="nav-link">Administrativos</li>
                             </a>
                         </ul>
@@ -43,13 +43,13 @@
 
         <!-- Contenedor del inicio de sesion -->
         <div class="container-ingreso">
-            <form action="/profesores/login" method="POST">
+            <form action="./dashboard.html">
                 <p><img src="../static/img/profesor(1).png" alt=""> ¡Hola profe!</p>
                 <hr>
                 <label for="">Por favor inicie sesión</label>
                 <input name="email" type="email" placeholder="Correo electrónico" autofocus required>
                 <input name="pwd" type="password" placeholder="Contraseña" required>
-                <button class="boton">Entrar</button>
+                <a href="./dashboard.html"><button class="boton">Entrar</button></a>
             </form>
         </div>
 
