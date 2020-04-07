@@ -1,0 +1,359 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Open Sans, sans-serif;
+}
+
+a[title]{
+    font-size: 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    padding-left: 100px;
+    vertical-align: middle;
+    padding-top: 0px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #287d5b; 
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul > a {
+    text-decoration: none;
+}
+
+nav {
+    padding-right: 100px;
+    width: 100%;
+}
+
+.nav-link {
+    width: 70px;
+    height: 60px;
+    list-style: none;
+    padding: 55px 55px 55px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 45px;
+    padding-top: 10px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.container-img {
+    width: 100%;
+    height: 250px;
+}
+
+.container-img img{
+    position:absolute; 
+    z-index:1;
+    width:100%; 
+    height:250px;
+}
+
+.barra {
+    width: 100%;
+    height: 10px;
+    background-color: #287d5b;
+}
+
+/* contenido de la pagina principal */
+
+.content-information  {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
+    width: 80%;
+    height: 40%;
+}
+
+.content-information h1 {
+    font-size: 40px;
+}
+
+.information > hr {
+    width: 100%;
+    height: 3px;
+    margin: 10px;
+}
+
+.content-information p {
+    margin-top: 60px;
+    font-size: 20px;
+    max-width: 50%;
+    line-height: 35px;
+}
+
+strong {
+    color: #287d5b;
+}
+
+.information-volumen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information-volumen img {
+    margin-top: 60px;
+    width: 45%;
+    height: 250px;
+}
+
+.container-content  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-content-card {
+    margin: 50px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
+}
+
+.container-content-card img {
+    margin-bottom: 20px;
+}
+
+.boton {
+    width: 250px;
+    height: 35px;
+    background-color: #287d5b;
+    color: white;
+    border: 1px solid #287d5b;
+    font-size: 18px;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.container-ingreso {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-ingreso form  {
+    font-size: 18px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 100px;
+    padding: 10px;
+    box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
+}
+
+.container-ingreso > form  > p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container-ingreso > form  > p > img {
+    width: 80px;
+    height: 80px;
+}
+
+.container-ingreso > form > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #287d5b;
+}
+
+.container-ingreso > form  > label  {
+    margin-left: 200px;
+    padding: 2px;
+
+}
+
+.container-ingreso > form  > input  {
+    margin: 20px 80px 10px 80px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.container-ingreso > form > button {
+    margin: 20px 80px 10px 170px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #287d5b;
+    color:  white;
+}
+
+.footer hr {
+    margin-top: 5px;
+    color: white;
+}
+
+.footer p {
+    margin: 10px;
+}
+
+/* dashboard  de profesores */
+
+.container-form-profes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
+}
+
+.container-form-profes--cabecera {
+    width: 100%;
+}
+
+select {
+    padding: 5px 5px;
+    height:42px;
+    margin:10px auto;
+    width: 20%;
+    -webkit-appearance: none;
+    height: 34px;
+    /* background-color: #ffffff; */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+        linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    border: 1px solid grey;
+}
+
+.container-form-profes hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #287d5b;
+}
+
+.container--cuerpo-barrabusqueda {
+    margin: 10px;
+}
+
+.container--cuerpo-barrabusqueda button {
+    font-size: 14px;
+    width: 10%;
+    margin-left: 30px;
+}
+
+.container--cuerpo-barracontrol {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+}
+
+.barracontrol-agregar  img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.barracontrol-agregar img:hover {
+    transform: scale(0.9);
+}
+
+.container-form-profes--cuerpo  {
+    width: 100%;
+}
+
+.container--cuerpo-tablaclases {
+    margin: 10px auto;
+    text-align: center;
+}
+
+table  {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #287d5b;
+    color: white;
+}
+
+#vacio {
+    background-color: white;
+}
+
+.Entrar {
+    text-align: center;
+    font-size: 16px;
+    background-color: #287d5b;
+    color: white;
+    cursor: pointer;
+}
+
+.Entrar:hover {
+    color: red;
+    background-color: white;
+}
+
+.opciones {
+    padding-right: 0%;
+}
+
+.opciones img{
+    width: 25px;
+    height: 25px;   
+}
+
+.opciones img:hover {
+    transform: scale(0.9);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
