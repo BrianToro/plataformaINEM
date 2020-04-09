@@ -73,14 +73,14 @@ nav {
 
 .container-img {
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .container-img img{
-    position:absolute; 
-    z-index:1;
-    width:100%; 
-    height:250px;
+    position: absolute; 
+    z-index: 1;
+    width: 100%; 
+    height: 200px;
 }
 
 .barra {
@@ -95,10 +95,9 @@ nav {
     display: flex;
     flex-direction: row;
     margin: 50px;
+    margin-bottom: 25px;
     padding: 50px;
     box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
-    width: 85%;
-    height: 40%;
     border-radius: 20px;
 }
 
@@ -169,10 +168,16 @@ strong {
     border-radius: 5px;
 }
 
+.boton-danger {
+    background-color: #eb4559;
+    border: 1px solid #eb4559;
+    color: white;
+}
+
 .boton:hover {
     transform: scale(1.05);
     background-color: white;
-    color: red;
+    color: #eb4559;
     cursor: pointer;
 }
 
@@ -385,4 +390,64 @@ th, td {
     width: 30px;
     height: 30px;
 
+}
+
+.container-agregarform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    margin-bottom: 100px;
+    padding: 50px;
+    box-shadow: 0 6px 50px rgba(0,0,0, 0.09);
+    border-radius: 20px;
+}
+
+.container-agregarform h1 {
+    width: 100%;
+}
+
+.container-agregarform label {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.container-agregarform input {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+.container-agregarform textarea {
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 500px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.container-agregarform hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #287d5b;
+}
+
+.container-agregarform form {
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-agregarform button {
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
 }
