@@ -73,14 +73,14 @@ nav {
 
 .container-img {
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 
 .container-img img{
     position: absolute; 
     z-index: 1;
     width: 100%; 
-    height: 200px;
+    height: 150px;
 }
 
 .barra {
@@ -109,6 +109,7 @@ nav {
     width: 100%;
     height: 3px;
     margin: 10px;
+    margin-bottom: 0px;
 }
 
 .content-information p {
@@ -116,7 +117,7 @@ nav {
     margin-top: 60px;
     font-size: 20px;
     max-width: 50%;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 strong {
@@ -131,8 +132,8 @@ strong {
 
 .information-volumen img {
     margin-top: 60px;
-    width: 45%;
-    height: 250px;
+    width: 40%;
+    height: 200px;
     border-radius: 40px;
 }
 
