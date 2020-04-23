@@ -1,45 +1,3 @@
-<!-- Inicio  de la cabecera general -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <title>INEM virtual</title>
-    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-
-    <div class="container-main">
-        <header>
-            <div class="menu">
-                <div class="container-menu">
-                    <a href="../index.html" class="logo"><img src="../static/img/logo.png" alt=""></a>
-                    <nav>
-                        <ul>
-                            <a href="../Profesores/sesion.html">
-                                <li class="nav-link">Profesores</li>
-                            </a>
-                            <a href="../Estudiantes/sesion.html">
-                                <li class="nav-link">Estudiantes</li>
-                            </a>
-                            <a href="../Administrativos/sesion.html">
-                                <li class="nav-link">Administrativos</li>
-                            </a>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- <div class="container-img">
-            <img src="../static/img/copia.jpg" alt="">
-        </div>
-        <div class="barra"></div> -->
-
-        <!-- Fin de la cabecera general -->
 
         <!-- Contenedor del dashboard -->
         <div class="container-form-profes">
@@ -76,45 +34,32 @@
                             <tr>
                                 <td>Alexander Narvaez</td>
                                 <td class="materia">Informatica</td>
-                                <td><a href="../clases/visualizacion.html">Ingresar a sus materias</a></td>
+                                <td><a href="./visualizacion.php">Ingresar a sus materias</a></td>
                             </tr>
                             <tr>
                                 <td>Docente Nombre</td>
                                 <td class="materia">Tema</td>
-                                <td><a href="">Ingresar a sus materias</a></td>
-                            </tr>
-                            <tr>
-
-                                <td>Docente Nombre</td>
-                                <td class="materia">Tema</td>
-                                <td><a href="">Ingresar a sus materias</a></td>
+                                <td><a href="./visualizacion.php">Ingresar a sus materias</a></td>
                             </tr>
                             <tr>
 
                                 <td>Docente Nombre</td>
                                 <td class="materia">Tema</td>
-                                <td><a href="">Ingresar a sus materias</a></td>
+                                <td><a href="./visualizacion.php">Ingresar a sus materias</a></td>
+                            </tr>
+                            <tr>
+
+                                <td>Docente Nombre</td>
+                                <td class="materia">Tema</td>
+                                <td><a href="./visualizacion.php">Ingresar a sus materias</a></td>
                             </tr>
                         </tbody>
                     </table>
                     <button class="boton boton-pagina">1</button>
                     <button class="boton boton-pagina">2</button>
                     <button class="boton boton-pagina">3</button>
+                    <br>
+                    <a href="logout.php">Cerrar Sesion</a>
                 </div>
             </div>
         </div>
-
-
-        <!-- Inicio de pie de pagina general -->
-
-        <footer class="footer">
-            <hr>
-            <p>© 2020 INEM José Félix de Restrepo</p>
-        </footer>
-    </div>
-    <!-- <script src="/js/main.js" type="text/javascript"></script> -->
-</body>
-
-</html>
-
-<!-- fin del pie de pagina general -->

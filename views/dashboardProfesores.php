@@ -1,44 +1,3 @@
-<!-- Inicio  de la cabecera general -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <title>INEM virtual</title>
-    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-    <div class="container-main">
-        <header>
-            <div class="menu">
-                <div class="container-menu">
-                    <a href="../index.html" class="logo"><img src="../static/img/logo.png" alt=""></a>
-                    <nav>
-                        <ul>
-                            <a href="../Profesores/sesion.html">
-                                <li class="nav-link">Profesores</li>
-                            </a>
-                            <a href="../Estudiantes/sesion.html">
-                                <li class="nav-link">Estudiantes</li>
-                            </a>
-                            <a href="../Administrativos/sesion.html">
-                                <li class="nav-link">Administrativos</li>
-                            </a>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- <div class="container-img">
-            <img src="../static/img/copia.jpg" alt="">
-        </div>
-        <div class="barra"></div> -->
-
-        <!-- Fin de la cabecera general -->
 
         <!-- Contenedor del dashboard -->
         <div class="container-form-profes">
@@ -70,7 +29,7 @@
                 </div>
                 <div class="container--cuerpo-barracontrol">
                     <div class="barracontrol-agregar">
-                        <a title="Agregar clase" href="./agregar.html"><img src="../static/img/mas.png"
+                        <a title="Agregar clase" href="./agregar.php"><img src="./static/img/mas.png"
                                 alt="Agregar"></a>
                     </div>
                 </div>
@@ -79,7 +38,7 @@
                         <thead>
                             <tr>
                                 <th>Materia</th>
-                                <th>Seccion</th>
+                                <th>Secciones</th>
                                 <th>Plataforma</th>
                                 <th>Acciones</th>
                             </tr>
@@ -89,61 +48,61 @@
                                 
                                 
                                 <td class="materia">Algoritmos</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                             <tr>
                                 
                                 
                                 <td class="materia">Lenguaje de Programacion</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                             <tr>
                                 
                                 
                                 <td class="materia">Fundamentos de investigacion</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                             <tr>
                                 
                                 
                                 <td class="materia">Tecnologia</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                             <tr>
                                 
                                 
                                 <td class="materia">Etica</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                             <tr>
                                 
                                 
                                 <td class="materia">Emprendimiento</td>
-                                <td>8</td>
+                                <td>7 - 8</td>
                                 <td><a href="https://classroom.google.com/u/2/c/NjU5NTg0ODEzOFpa">Clic para acceder a la asignatura</a></td>
-                                <td class="opciones"><a title="Editar clase" href=""><img src="../static/img/lapiz.png"
+                                <td class="opciones"><a title="Editar clase" href=""><img src="./static/img/lapiz.png"
                                             alt=""></a><a title="Eliminar clase" style="margin-left: 20px;" href=""><img
-                                            src="../static/img/cruzar.png" alt=""></a></td>
+                                            src="./static/img/cruzar.png" alt=""></a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -151,18 +110,6 @@
                     <button class="boton boton-pagina">2</button>
                     <button class="boton boton-pagina">3</button>
                 </div>
+                <a href="logout.php">Cerrar Sesion</a>
             </div>
         </div>
-        <!-- Inicio de pie de pagina general -->
-
-        <footer class="footer">
-            <hr>
-            <p>© 2020 INEM José Félix de Restrepo</p>
-        </footer>
-    </div>
-    <!-- <script src="/js/main.js" type="text/javascript"></script> -->
-</body>
-
-</html>
-
-<!-- fin del pie de pagina general -->
