@@ -1,7 +1,5 @@
-TEMPLATES INEM VIRTUAL: HTML - CSS
+PLATAFORMA INEM VIRTUAL: PHP
 ----------------------------------
-HTML -> La estructura del html esta  hecho para que se pueda usar un sistema layout, el cual esta
- marcado con comentarios dentro del codigo.
- 
-CSS -> En CSS se usa la metodologia BEM para marcar las clases de los distintos componentes de la
-  pagina y que sean expresivas
+PHP -> La plataforma esta estructura para controlar los roles de ingreso y la sesion
+a travez de las distintas paginas, en el includes se encuentran los controladores y
+archivos esenciales que traen ayudas a la estructura.
